@@ -88,6 +88,18 @@ section{
   transition-delay: 0ms;
 }
 
+.carouselImage{
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  object-position: center;
+}
+
+.slick-dots{
+  margin-bottom: 25px !important;
+}
+
 .carousel-button{
   position: absolute;
   z-index: 2;
@@ -126,8 +138,9 @@ section{
 }
 
 .prayerTimeTable{
-  background:url(../public/Slide1.jpg);
+  /* background:url(../public/Slide1.jpg);
   background-size:cover;
-  background-position: center;
-  color: #333;
+  background-position: center; */
+  background-color: #555;
+  color: #fff;
 }
